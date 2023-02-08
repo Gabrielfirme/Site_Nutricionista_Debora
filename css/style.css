@@ -1,1 +1,82 @@
 @charset "UTF-8";
+@import url(online.css);
+@import url(receitas.css);
+@import url(presencial.css);
+@import url(blog.css);
+@font-face {
+    font-family: "Quick";
+    src: url(../fonts/Quicksand-VariableFont_wght.ttf);
+}
+:root{
+    --font1: "Quick";
+    --color1:#F32A46;
+    --color2:#ADC057;
+    --color3: #000000;
+    
+}
+body{
+    background: white;
+}
+.principal_header{
+    backface-visibility: hidden;
+    padding: 2em;
+
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    margin: 0 auto;
+   
+}
+.navigation__menu{
+ display: flex;
+ justify-content: center;
+ padding-top: 1.5em;
+}
+.item_nav{
+    font: normal 700 20px var(--font1);
+    color:var(--color1) ;
+    margin-left: .5em;
+    text-decoration: none;
+}
+.item_nav:hover{
+    color: var(--color2);
+
+}
+.title__principal_main{
+    font: normal bold 30px Arial;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.beneficio_do_acompanhamento {
+  
+    justify-content: center;
+    background:var(--color2);
+    
+
+}
+.banner__benefits{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.benefits{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border: 3px solid black;
+    padding: 1.5em;
+    margin: 1.3%;
+
+
+}
+.title_benefits{
+    font: normal lighter 25px var(--font1);
+    color:var(--color3) ;
+    text-align: center;
+}
+
+
