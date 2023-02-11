@@ -12,14 +12,21 @@
     --color1:#F32A46;
     --color2:#ADC057;
     --color3: #000000;
+    --color4:#678466;
+    --color5:#FFFFFF;
     
 }
 body{
     background: white;
 }
+header{
+    border-bottom: 1px solid var(--color1);  
+
+}
 .principal_header{
     backface-visibility: hidden;
     padding: 2em;
+    border-bottom: 5px solid var(--color1);
 
 }
 .container {
@@ -47,36 +54,86 @@ body{
 }
 .title__principal_main{
     font: normal bold 30px Arial;
+    color: white;
     text-align: center;
-    margin-bottom: 2em;
+    margin-bottom: .5em;
+}
+.apresentação_profissional{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+   
+
+}
+.logo_profissional{
+    border-radius: 20px 20px;
+    padding:auto 2em;
+}
+.profissional_text{
+    font: normal 400 25px var(--font1);
+    text-align: justify;
+    padding: 2em;
 }
 .beneficio_do_acompanhamento {
-  
+  padding: 2em;
     justify-content: center;
-    background:var(--color2);
+    background:var(--color4);
     
 
 }
 .banner__benefits{
     display: flex;
     justify-content: center;
+    margin: 1.5em;
     
+}
+.img_benefits{
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
 }
 
 .benefits{
     display: flex;
     flex-direction: column;
-    width: 20%;
-    border: 3px solid black;
-    padding: 1.5em;
-    margin: 1.3%;
+    justify-content: center;
+    width: 30%;
+   
+    padding: 1.3em 2em;
+    margin-left:  1.3%;
 
 
 }
+
 .title_benefits{
-    font: normal lighter 25px var(--font1);
-    color:var(--color3) ;
+    font: normal 500 25px var(--font1);
+    color:white;
     text-align: center;
+    padding-bottom: .5em;
+   
+}
+.contact__footer{
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    background: rgb(255, 168, 168);
+    text-decoration: none;
+}
+.item__footer{ 
+    display: flex;
+    font: normal bolder 20px var(--font1);
+    text-decoration: none;
+
+}
+.item__footer a {
+      font: normal bolder 20px var(--font1);
+      color: var(--color1);
+      text-decoration: none;
 }
 
-
+.logo__fot{
+    align-items: center;
+    height: 30px;
+}

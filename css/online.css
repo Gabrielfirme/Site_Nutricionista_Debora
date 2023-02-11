@@ -1,1 +1,62 @@
 @charset "UTF-8";
+main{
+    background: #6784666e;
+    padding: 1em;
+}
+
+#atendimento_online{
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    width: 1200px;
+    margin: 20px auto;
+    background: var(--color2);
+   
+}
+
+.title_online{
+    font: normal bold  25px var(--font1);
+    color: white;
+    margin-bottom: 20px;
+
+
+}
+.benefits_online{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-top: 50px;
+    margin-left:80px ;
+    list-style-type: disc;
+   
+
+    
+}
+.img_vant_pag{
+    height: 500px;
+    width: 40%;
+    padding-bottom: 20px;
+   
+}
+.online_item{
+font: normal bolder 18px var(--font1);
+color: white;
+padding-bottom: 25px;
+  
+}
+.title_online h2{
+    text-align: center;
+}
+.input__folder{
+    width: 90%;
+    padding: 1em 1.4em;
+    border: 2px solid var(--color5);
+    border-radius: 20px;
+    text-align: center;
+    background: url(../img/email-removebg-preview.png) no-repeat;
+}
+.input__folder::placeholder{
+    font: normal bold 18px var(--font1);
+    text-align: center;
+    color: white;
+}
