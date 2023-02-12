@@ -253,21 +253,25 @@ header{
         padding-bottom: 1.5em;
        
     }
+    footer{
+        width: 100%;
+    }
 
     .contact__footer{
     
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: block;
         width: 100%;
         text-align: center;
         height: 30px;
         background: rgb(255, 168, 168);
         text-decoration: none;
     }
-    .item__footer{ 
+    .item__footer{
+        display: flex;
+        justify-content: center; 
         font: normal bolder 20px var(--font1);
         text-decoration: none;
+        background: rgb(255, 168, 168);
     
     }
     .item__footer a {
@@ -278,7 +282,7 @@ header{
     
     .logo__fot{
         align-items: center;
-        height: 10px;
+        height: 30px;
     }
 
 
