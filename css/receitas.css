@@ -1,1 +1,87 @@
 @charset "UTF-8";
+main{
+    margin: 20px auto 0 auto ;
+}
+.swiper {
+    height: 680px;
+    margin: 10px auto 0 auto ;
+}
+.title__receitas{
+    font: normal 700 45px var(--font1);
+    color: var(--color5);
+    text-shadow: 2px 2px black;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.swiper-wraper {
+    width: 940px;
+    height: 600px;
+}
+.swiper-slide{
+    width: 20%;
+    margin: 0 auto;
+  
+
+   
+}
+.swiper-slide img{
+    text-align: center;
+}
+.title__swiper_slide{
+    font: normal 700 25px var(--font1);
+    color: var(--color5);
+    text-align: center;
+
+}
+.swiper__img{
+    border-radius: 20px;
+}
+.swiper-button-prev,.swiper-button-next{
+    display: none;
+}
+.swiper-pagination{
+    position: initial;
+    margin: 1em 0;
+}
+.ind_receitas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1250px;
+    padding: 2em 3em;
+    justify-content: space-around;
+    margin: 0 auto;
+    background: var(--color1);
+    
+
+}
+.receita{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    margin-bottom: 20px;
+    background: var(--color4);
+    border-radius: 30px;
+}
+.title_ind_receitas{
+    font: normal bold 25px var(--font1) ;
+    color: var(--color5);
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+.title_lists{
+    font: normal bold 25px var(--font1) ;
+    color: var(--color5);
+    text-align: center;
+    padding-bottom: .5em;
+    border-bottom: 2px solid white;
+
+}
+.ingredientes{
+    font: normal bold 18px var(--font1) ;
+    color: var(--color5);
+    list-style-type: disc;
+    padding-top: 1.5em;
+  
+}

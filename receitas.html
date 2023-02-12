@@ -4,32 +4,160 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/imagens/favicon-32x32.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title> Nutri Débora Carla </title>
     <script src="main.js"></script>
 </head>
-<body>
-   
-            
+<body>     
      <header>
         <div class="container">
-            <img src="img/imagens/logo png.png" class="img_logo" alt="">
+            <img src="img/logo png.png" class="img_logo" alt="">
             <figure class="">
-                <img src="img/imagens/logo-facebook.png" alt="">
-                <img src="img/imagens/Instagram-Logo-PNG-Image-PNG.png" alt="">
+                <img src="img/loggo_wpp-removebg-preview.png" alt="">
+                <img src="img/insta-removebg-preview.png" alt="">
+                <img src="img/loggo_wpp-removebg-preview.png" alt="">
             </figure>
                 
         </div>
         <nav class="navigation__menu">
-            <a href="#" class="item_nav pagina_inicial" on=''> Página inicial</a>
-            <a href="Consulta On-line" class="item_nav"> Consulta On-line</a>
-            <a href="Atendimento Presencial"class="item_nav"> Atendimento Presencial </a>
-            <a href="" class="item_nav"> Receitas</a>
-            <a href=" Blog da Nutri" class="item_nav">Blog da Nutri</a>
+            <a href="index.html" class="item_nav pagina_inicial" > Página inicial</a>
+            <a href="on-line.html" class="item_nav"> Consulta On-line</a>
+            <a href="presencial.html"class="item_nav"> Atendimento Presencial </a>
+            <a href="receitas.html" class="item_nav"> Receitas</a>
+            <a href="blog.html" class="item_nav">Blog da Nutri</a>
         </nav>
     </header>
+    <main>
+    <!-- Slider main container -->
+                <div class="swiper">
+                    <h1 class="title__receitas"> Receitas </h1>
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                        <div class="swiper-slide"><img src="img/nuggtes_caseiros.jpeg"  class="swiper__img" alt="">
+                        </div>
+                        <div class="swiper-slide"><img src="img/bolinho_de_aveia_swiper.jpeg" class="swiper__img" alt=""></div>
+                        <div class="swiper-slide"> <img src="img/creme_de_mamao_swiper.jpeg" class="swiper__img" alt=""></div>
+                        <div class="swiper-slide"> <img src="img/smothie_swiper.jpeg" class="swiper__img" alt=""></div>
+                        <div class="swiper-slide"> <img src="img/sucos_swiper.jpeg" class="swiper__img" alt=""></div>
+                        ...
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                    
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    
+                        <!-- If we need scrollbar -->
+                        <div class="swiper-scrollbar"></div>
+                </div>
+            </main>
+              
+                     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+                     <script>
+                        const swiper = new Swiper('.swiper', {
+                        spaceBetween: 10,
+                        slidesPerView: 3,
+                        pagination: {
+                            el: '.swiper-pagination',
+                            type: 'bullets',
+                      },
+                    });
+                      </script>
+    </main>
+    <section class="ind_receitas">
+        <div class="receita">
+            <h2 class="title_ind_receitas"> Nuggets caseiros</h2>
+            <h3 class="title_lists">Ingredientes</h3>
+            <ul class="ingredientes">
+                <li class="receit_list_item">Peito de Frango;</li>
+                <li class="receit_list_item">Ovo;</li>
+                <li class="receit_list_item">Farinha de linhaça ou de rosca;</li>
+                <li class="receit_list_item">Azeite;</li>
+            </ul>
+            <h3 class="title_lists">Modo de Preparo</h3>
+            <ul class="ingredientes">
+                <li class="receit_list_item">Tempere o frango e triture no proncessador ou liquidificador;</li>
+                <li class="receit_list_item">Faça os bolinhos.</li>
+                <li class="receit_list_item">Passe na farinha e no ovo;</li>
+                <li class="receit_list_item">Unte a forma com azeite e acrescente os bolinhos.</li>
+            </ul>
+
+        </div>
+        <div class="receita">
+            <h2 class="title_ind_receitas">Bolinho de Aveia</h2>
+            <h3 class="title_lists">Ingredientes</h3>
+            <ul class="ingredientes">
+                <li class="receit_list_item">1 ovo;</li>
+                <li class="receit_list_item">1 Colher de Sopa;</li>
+                <li class="receit_list_item">1 Colher de sopa de Açucar Demerara</li>
+                <li class="receit_list_item">1 Colher de Café de Fermento</li>
+                <li class="receit_list_item"> 4 Colheres de sopa de Farelo de Aveia </li>
+                <li class="receit_list_item"> 1 Banana Amassada </li>
+                <li class="receit_list_item"> Canela a gosto. </li>
+            <h3 class="title_lists">Modo de Preparo</h3>
+            <ul class="ingredientes">
+                <li class="receit_list_item">Coloque todos os ingredientes em um recipiente e mexa;</li>
+                <li class="receit_list_item">Despeje a mistura em forminhas e leve para assar.</li>
+                <li class="receit_list_item">Ao final acrescente Canela.</li>
+                
+            </ul>
+
+        </div>
+        <div class="receita">
+            <h2 class="title_ind_receitas">Creme de Mamão</h2>
+            <h3 class="title_lists">Ingredientes</h3>
+            <ul class="ingredientes">
+                <li class="receit_list_item">1/2 de mamão;</li>
+                <li class="receit_list_item">1 Iorgute Natural;</li>
+                <li class="receit_list_item">1 Colher de Chá de Geleia.</li>
+            <h3 class="title_lists">Modo de Preparo</h3>
+            <ul class="ingredientes">
+                <li class="receit_list_item">Bata o mamaõ e o iorgute no liquidificador, ao final acrescente a geleia.</li>
+          
+                
+            </ul>
+
+        </div>
+
+        <div class="receita">
+            <h2 class="title_ind_receitas">Smoothie de Maracujá</h2>
+            <h3 class="title_lists">Ingredientes</h3>
+            <ul class="ingredientes">
+                <li class="receit_list_item">1 Maracujá;</li>
+                <li class="receit_list_item">1 Banana.</li>
+              
+            <h3 class="title_lists">Modo de Preparo</h3>
+            <ul class="ingredientes">
+                <li class="receit_list_item">Coloque todos os ingredientes no liquidificador e bata;</li>
+                <li class="receit_list_item">Despeje o Smoothie em um copo e se delicie.</li>
+                
+                
+            </ul>
+          
+
+        </div>
+        <div class="receita">
+            <h2 class="title_ind_receitas">Suco Natural </h2>
+            <h3 class="title_lists">Ingredientes</h3>
+            <ul class="ingredientes">
+                <li class="receit_list_item">1 Porção de 200g de Melância;</li>
+                <li class="receit_list_item">1 Cenoura.</li>
+                <li class="receit_list_item"> 1 Limão.</li>
+              
+            <h3 class="title_lists">Modo de Preparo</h3>
+            <ul class="ingredientes">
+                <li class="receit_list_item">Coloque todos os ingredientes no liquidificador e bata;</li>
+                <li class="receit_list_item">Despeje o Smoothie em um copo e se delicie.</li>
+            
+            </ul>
+          
+
+        </div>
+    </section>
     <footer>
     
         <ul class="contact__footer">
