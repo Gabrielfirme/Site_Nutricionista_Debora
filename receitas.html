@@ -18,7 +18,7 @@
             <figure class="logos">
                 <img src="img/loggo_wpp-removebg-preview.png" alt="">
                 <img src="img/insta-removebg-preview.png" alt="">
-                <img src="img/loggo_wpp-removebg-preview.png" alt="">
+              
             </figure>
                 
         </div>
@@ -30,7 +30,7 @@
             <a href="blog.html" class="item_nav">Blog da Nutri</a>
         </nav>
     </header>
-    <main>
+    <main id="swiper_receitas">
     <!-- Slider main container -->
                 <div class="swiper">
                     <h1 class="title__receitas"> Receitas </h1>
@@ -54,22 +54,14 @@
                         <!-- If we need scrollbar -->
                         <div class="swiper-scrollbar"></div>
                 </div>
-            </main>
+            
               
-                     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-                     <script>
-                        const swiper = new Swiper('.swiper', {
-                        spaceBetween: 10,
-                        slidesPerView: 3,
-                        pagination: {
-                            el: '.swiper-pagination',
-                            type: 'bullets',
-                      },
-                    });
-                      </script>
+                   
     </main>
+  
     <section class="ind_receitas">
         <h1 class="title__receitas"> Receitas Passo a Passo</h1>
+    <div class="receita_geral">
         <div class="receita">
             <h2 class="title_ind_receitas"> Nuggets caseiros</h2>
             <h3 class="title_lists">Ingredientes</h3>
@@ -109,18 +101,19 @@
 
         </div>
         <div class="receita">
-            <h2 class="title_ind_receitas">Creme de Mamão</h2>
-            <h3 class="title_lists">Ingredientes</h3>
-            <ul class="ingredientes">
-                <li class="receit_list_item">1/2 de mamão;</li>
-                <li class="receit_list_item">1 Iorgute Natural;</li>
-                <li class="receit_list_item">1 Colher de Chá de Geleia.</li>
-            <h3 class="title_lists">Modo de Preparo</h3>
-            <ul class="ingredientes">
-                <li class="receit_list_item">Bata o mamaõ e o iorgute no liquidificador, ao final acrescente a geleia.</li>
-          
+            <div class="sub">
+                <h2 class="title_ind_receitas">Creme de Mamão</h2>
+                <h3 class="title_lists">Ingredientes</h3>
+                <ul class="ingredientes">
+                    <li class="receit_list_item">1/2 de mamão;</li>
+                    <li class="receit_list_item">1 Iorgute Natural;</li>
+                    <li class="receit_list_item">1 Colher de Chá de Geleia.</li>
+                <h3 class="title_lists">Modo de Preparo</h3>
+                <ul class="ingredientes">
+                    <li class="receit_list_item">Bata o mamaõ e o iorgute no liquidificador, ao final acrescente a geleia.</li>
                 
-            </ul>
+                </ul>
+            </div>
 
         </div>
 
@@ -158,16 +151,32 @@
           
 
         </div>
+    </div>    
     </section>
-    <footer>
-    
-        <ul class="contact__footer">
-            <li class="item__footer  item__whats"> <img src="img/loggo_wpp-removebg-preview.png" class="logo__fot" alt=""><a href="#"> (61) 99613-8433 </a></li>
 
-            <li class="item__footer  item__email"><img src="img/email-removebg-preview.png" class=""alt="logo__ft"><a href="#"> Dconutri@gmail.com</a></a></li>
-            <li class="item__footer item__insta"><img src="img/insta-removebg-preview.png" class="logo__fot" alt=""><a href="https://www.instagram.com/nutrideboracto/">Nutrideboracto</a></li>
-        </ul>
+
+
+    <footer id="footer__principal">
+    <section id="footer">
+        
+            <ul class="contact__footer">
+                <li class="item__footer  item__whats"> <img src="img/loggo_wpp-removebg-preview.png" class="logo__fot" alt=""><a href="https://wa.me/message/7OHZZS43VVGKM1"> (61) 99613-8433 </a></li>
+                <li class="item__footer  item__email"><img src="img/email-removebg-preview.png" class=""alt="logo__ft"><a href="#"> Dconutri@gmail.com</a></a></li>
+                <li class="item__footer item__insta"><img src="img/insta-removebg-preview.png" class="logo__fot" alt=""><a href="https://www.instagram.com/nutrideboracto/">Nutrideboracto</a></li>
+            </ul>
+    </section>
 
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script>
+   const swiper = new Swiper('.swiper', {
+   spaceBetween: 12,
+   slidesPerView: 3,
+   pagination: {
+       el: '.swiper-pagination',
+       type: 'bullets',
+ },
+});
+ </script>
 </body>
 </html>

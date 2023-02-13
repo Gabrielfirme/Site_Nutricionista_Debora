@@ -31,14 +31,34 @@ input {
     width: 100%;
     margin-bottom: 1.2%;
     padding: 1em;
-    
-    
 }
+.button__presencial{
+        font: normal 400 20px var(--font1);
+        position: relative;
+        left: 48px;
+        width: 80%;
+        text-align: center;
+}
+    .button__presencial:hover{
+        font: normal bold 23px var(--font1);
+        color: var(--color3);
+
+    }
+    #footer__presencial{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    
+
 @media screen and (max-width:450px) {
+    #presencial_content_principal{
+        width: 100%;
+    }
     #atendimento_presencial{
         width: 400px;
         margin: 0 auto;
-        display: flex;
+       padding: auto 2em;
        
     
       
@@ -71,10 +91,22 @@ input {
         
         
     }
+    .button__presencial{
+        font: normal 400 20px var(--font1);
+        position: relative;
+        left: 48px;
+        width: 80%;
+        text-align: center;
+    }
+    .button__presencial:hover{
+        font: normal bold 23px var(--font1);
+        color: var(--color3);
+
+    }
     .img_form_nutri{
         display: none;
     }
-    #footer_presencial{
+    #footer__presencial{
         position: absolute;
         bottom: 0;
         width: 100%;

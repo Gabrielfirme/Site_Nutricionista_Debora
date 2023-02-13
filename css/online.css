@@ -60,6 +60,11 @@ padding-bottom: 25px;
     text-align: center;
     color: white;
 }
+#footer__online{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
 @media screen and (max-width:450px) {
     *{
         margin:0;
@@ -68,7 +73,7 @@ padding-bottom: 25px;
     #atendimento_online{
         display:block;
         position: relative;
-        left: 20px;
+        left: 8px;
         height: 800px;
         width: 90%;
         margin: 0 auto;
@@ -76,12 +81,17 @@ padding-bottom: 25px;
         background: var(--color2);
        
     }
+    #online_main{
+        
+        width: 100%;
+    }
     .benefits_online{
         display: flex;
         flex-direction: column;
         position: relative;
         left: -8%;
         list-style-type: disc;
+       
        
     
         
@@ -117,9 +127,29 @@ padding-bottom: 25px;
         color: white;
         padding-left: 40px;
     }
+    #footer__online{
+        position: static;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        background-color: #ffffff;
+    }
+    .contact__footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background:var(--color5);
+        margin-top: 30px;
+        padding-top: 30px;
+    }
+    .item__footer{
+        text-align: center;
+        background-color: #ffffff;
+    }
 
 
-
+    
 
 
 
